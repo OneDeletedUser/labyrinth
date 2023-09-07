@@ -66,7 +66,7 @@ class Wall(pygame.sprite.Sprite):
     def draw(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
-# Стены
+# Стены ...
 walls = pygame.sprite.Group()
 walls.add(Wall(100, 20, 450, 10))
 walls.add(Wall(100, 480, 350, 10))
